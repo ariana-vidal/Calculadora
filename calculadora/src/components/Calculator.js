@@ -60,6 +60,7 @@ export default function Calculator() {
       <Box m={5} />
       <Container maxWidth="xs">
         <div className="wrapper">
+      <img className="img" src="https://scontent.fguz1-1.fna.fbcdn.net/v/t39.30808-6/294502042_582520336714467_6574202528405515326_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFMRVPOep9wApvGhfTW8XOvs2GcTTcmGQ2zYZxNNyYZDUXfCIsXsPfxpu4mW8HKSNEsqMFaamrb60mETdF5Faky&_nc_ohc=5qRVLiwACXUAX-jwFTI&_nc_ht=scontent.fguz1-1.fna&oh=00_AT9jJGzSfzeGKV2Gs8zHU2F1PCJA1ITuGyHLCL8yFqql3g&oe=62EB46D7" alt="Girl in a jacket" width="80" height="60"></img>
           <Box m={12} />
           <h1 className="result">{num}</h1>
           <button onClick={clear}>AC</button>
